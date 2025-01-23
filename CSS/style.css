@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+}
+input[type= submit]{
+    background-color: skyblue;
+}
+input[type=password]{
+    background-color:lawngreen;
+}
+h1{
+    text-align: center;
+    color: navy;
+    background-color:lawngreen;;
+}
