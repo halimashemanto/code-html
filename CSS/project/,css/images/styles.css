@@ -1,4 +1,4 @@
-*{
+{
     margin: 0px;
     padding: 0px;
 }
@@ -21,11 +21,6 @@ nav{
         margin: 20px 20px 25px 60px;
 
 }
-
-
-
-
-
 #navright ul,li{
             background-color: skyblue;
             padding: 4px;
