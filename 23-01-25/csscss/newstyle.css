@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    display: block;
+}
+
+nav {
+    width: auto;
+    height: 15vh;
+    background-color: plum;
+}
+
+#navleft {
+    float: left;
+    list-style: none;
+    width: 50%;
+}
+
+#navleft img {
+
+    width: 20%;
+    display: block;
+    margin: 20px 30px 40px 60px;
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+#navright {
+    float: left;
+    margin-left: 315px;
+    margin-top: 20px;
+    display: block;
+}
+
+#navright ul li {
+
+    margin-top: 25px;
+    background-color: lawngreen;
+    float: left;
+    list-style: none;
+    display: block;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+iframe {
+    height: inherit;
+    display: block;
+}
+
+#suprova {
+
+    background-image: url(../photo/images.png);
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    
+    height: 50vh;
+    width: auto;
+    
+
+}
