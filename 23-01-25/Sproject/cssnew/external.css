@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 15vh;
+    width:auto ;
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+#top{
+
+    width: auto;
+    height: 75vh;
+}
+#sidebar{
+        height: 75vh;
+        width: 15%;
+        background-color: skyblue;
+        float: left;
+        list-style: none;
+}
+ ul {
+            text-align: justify;
+            padding: 0px;          
+            
+} 
+a{
+    color: yellow;
+    text-decoration: none;
+}
+#content{
+    height:75vh ;
+    width: 85%; 
+    float: left;
+}
+iframe{
+    width: 80%;
+    height: 75vh;
+}
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 15px;
+}
