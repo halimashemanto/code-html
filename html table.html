@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html table making</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            height: 10vh;
+            width: auto;
+            display: block;
+            background-color: blueviolet;
+
+        }
+        h1{
+            text-align: center;
+            color:wheat ;
+            padding: 13px;
+
+        }
+ table,th,td{
+             background-color: rgb(173, 230, 180);
+            color: navy;
+            width: 30%;
+            border: 10px solid orangered;
+            text-align: center;
+            border-collapse: collapse;
+}
+#root{
+    height: 90vh;
+    width: 100%;
+    background-color: lightcyan;
+    
+}
+#up{
+    height: 40vh;
+    width: 45%;
+    float: inline-end;
+    list-style: none;
+    margin-top: 180px;
+    
+
+}
+#down{
+    height: 40vh;
+    width:55%;
+    float: inline-start;
+    list-style: none;
+    margin-top: 105px; 
+
+}
+footer{
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+    padding: 15px;
+    background-color: lightcoral;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>TABLE MAKING FROM HTML</h1>
+
+    </nav>
+
+    <div id="root">
+    <div id="up">
+    <table>
+        <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Sub</th>
+                <th>Marks</th>
+                
+            </tr>
+        <tr>
+                <td>1287039</td>
+                <td>Atiqul Islam</td>
+                <td>Physics</td>
+                <td>70</td>
+            
+
+        </tr>
+        <tr>
+                <td>1287046</td>
+                <td>Suprova Shemanto</td>
+                <td>Accounting</td>
+                <td>100</td>
+
+        </tr>
+        <tr>
+                <td>1287059</td>
+                 <td>Rahim Khan</td>
+                <td>History</td>
+                <td>80</td>
+
+        </tr>
+
+
+    </table>
+</div>
+    <div id="down">
+
+    <table>
+        <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Sub</th>
+                <th colspan="2">Marks</th>
+                <!-- <th>Marks</th> -->
+                
+            </tr>
+        <tr>
+                <td>1287039</td>
+                <td>Atiqul Islam</td>
+                 <td rowspan="3">JEE-64</td> 
+                <td>70</td>
+                <td>77</td>
+            
+
+        </tr>
+        <tr>
+                <td>1287046</td>
+                <td>Suprova Shemanto</td>
+                <!-- <td rowspan="3">Accounting</td> -->
+                <td>100</td>
+                <td>100</td>
+
+        </tr>
+        <tr>
+                <td>1287059</td>
+                 <td>Rahim Khan</td>
+                <!-- <td>History</td> -->
+                <td>80</td>
+                <td>88</td>
+
+        </tr>
+
+
+    </table>
+</div>
+</div>
+<footer>
+    Powered by &#169 <b> Suprova</b>
+</footer>
+</body>
+</html>
